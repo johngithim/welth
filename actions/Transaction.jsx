@@ -200,7 +200,7 @@ export async function updateTransaction(id, data) {
 
 export async function scanReceipt(file) {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-image" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     //convert file to arraybuffer
     const arrayBuffer = await file.arrayBuffer();

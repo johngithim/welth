@@ -35,3 +35,21 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+# CLERK
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_bWF0dXJlLXRlcnJhcGluLTMzLmNsZXJrLmFjY291bnRzLmRldiQ
+CLERK_SECRET_KEY=sk_test_9ST0xwRwwxDIe1HLKT74RVpZoJTZTWoZRSnRumAZO2
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=sign-up
+
+# SUPABASE
+# Connect to Supabase via connection pooling
+DATABASE_URL="postgresql://postgres.trqluhbbdbdofifpvmgm:Pubgacemaster,1@aws-0-eu-west-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+
+# Direct connection to the database. Used for migrations
+DIRECT_URL="postgresql://postgres.trqluhbbdbdofifpvmgm:Pubgacemaster,1@aws-0-eu-west-1.pooler.supabase.com:5432/postgres"
+# ARCJET
+ARCJET_KEY=ajkey_01kreqfy92e2v8gzj6fg1hk699
+
+GEMINI_API_KEY=AIzaSyCIExwsW7lhkY3G1_uVqFILCGeWRz8ZkC4
+
+
